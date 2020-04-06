@@ -51,7 +51,7 @@ a{
   background: black;
   display: block;
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
 }
 .topnav a:hover {
