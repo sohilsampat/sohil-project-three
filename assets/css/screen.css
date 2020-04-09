@@ -89,7 +89,7 @@ figure{
 figcaption{
   padding-bottom: 1em;
 }
-h2{
+h2 {
   padding: 1em 0; /* 32 / 16 = 2 */
   font-style: normal;
   font-family: futura-pt;
