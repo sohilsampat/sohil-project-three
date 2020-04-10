@@ -62,7 +62,6 @@ a{
   background-color: #fff;
   color: white;
 }
-
 body, html{
   height: 100%;
 }
@@ -71,7 +70,7 @@ body, html{
   background: url("../../home/DJI_0037.jpg");
 
   /* Full height */
-  height: 100%;
+  height: 70%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -79,8 +78,6 @@ body, html{
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 .index-image{
   max-width: 100%;
 }
@@ -150,6 +147,9 @@ h2{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     justify-content: center;
+  }
+  .parallax{
+    height: 80%;
   }
   figure{
     display: flex;
