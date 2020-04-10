@@ -65,6 +65,7 @@ a{
 }
 body, html {
   height: 100%;
+  background-color: #f0f0f0;
 }
 .parallax {
   /* The image used */
@@ -106,8 +107,8 @@ figure {
 figcaption {
   padding-bottom: 1em;
 }
-h2 {
-  padding: 1em 0; /* 32 / 16 = 2 */
+#home-page h2 {
+  padding: 1em 0; /* 16 / 16 = 1 */
   font-style: normal;
   font-family: futura-pt;
   font-weight: bold;
@@ -117,6 +118,9 @@ h2 {
   line-height: 1.5em; /* 24 / 16 = 1.5 */
   text-transform: uppercase;
 }
+#resume-section {
+  padding: 0 2em;
+}
 .learn-more-buttons {
   padding: 1em 0; /* 1em = 16px */
   color: #4b495f;
@@ -124,6 +128,70 @@ h2 {
   border-style: solid;
   border-width: thin;
   border-radius: 1.25em; /* 20 / 16 = 1.25 */
+}
+#resume-section h1 {
+  font-style: normal;
+  font-family: futura-pt;
+  font-weight: bold;
+  font-size: 1.5em; /* 18 / 16 = 1.125 */
+  letter-spacing: .22em; /* 3.52 / 16 = 0.22 */
+  line-height: 1.5em; /* 24 / 16 = 1.5 */
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.5em 0;
+}
+#resume-section h2{
+  font-family: proxima-nova;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.6111111111em; /* 24px / 18 = 1.6111111111em */
+  letter-spacing: -.01em;
+  line-height: 1.5em;
+  text-transform: none;
+}
+#resume-section h2:not(.resume-header) {
+  padding: 0.5em 0;
+  margin-top: 1em;
+}
+#resume-section h3 {
+  font-family: proxima-nova;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.7777777778em; /* 14px / 18 = 0.7777777778em */
+  letter-spacing: .12em;
+  line-height: 1.6em;
+  text-transform: uppercase;
+  margin: 1em 0 0.5em 0;
+}
+#resume-section .details, .degree, .responsibilities, .skills {
+  font-size: 0.9em;
+  /* text-indent: -0.6666666667em; */
+  padding-left: 0.6666666667em;
+  margin-left: 0.6666666667em;
+  display: inline-block;
+  /* padding-bottom: 0.6666666667em; */
+}
+.dates {
+  padding-bottom: 0.4em;
+}
+.details {
+  color: #4b495f;
+}
+#resume-section .degree {
+  color: black;
+}
+.responsibilities {
+  line-height: 1.5em;
+  list-style-type: disc;
+}
+.sub-list{
+  margin-left: 1.6666666667em;
+}
+.org {
+  font-weight: bold;
+}
+.bold_text {
+  font-weight: 600;
 }
 #footer {
   padding: 2em 0; /* 32 / 16 = 2 */
@@ -203,5 +271,8 @@ h2 {
   }
   .footer-nav-items >a {
     margin: 0 8em;
+  }
+  #resume-section {
+    padding: 0 25em;
   }
 }
