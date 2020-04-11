@@ -34,18 +34,20 @@ a{
 }
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
   position: relative;
 }
 .topnav #navigation-panel {
   display: none;
+  background-color: #fff;
 }
 .topnav a {
-  color: white;
+  background-color: #f0f0f0;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
+  color: white;
 }
 .topnav a.icon {
   /* background: white; */
@@ -57,15 +59,12 @@ a{
   border-style: double;
   border-color: black;
 }
-.topnav a:hover {
-  background-color: #ddd; /* black*/
+#navigation-panel a {
+  background-color: #4b495f;
 }
-.active {
-  background-color: #4b495f; /*white*/
-}
-body, html {
-  height: 100%;
+#navigation-panel a:hover {
   background-color: #f0f0f0;
+  color: #4b495f;
 }
 .parallax {
   /* The image used */
