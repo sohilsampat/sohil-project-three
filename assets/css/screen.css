@@ -199,16 +199,13 @@ article > a:hover {
   font-weight: 600;
 }
 
-#contact-form {
-  /* padding: 1.1111111111em; */
-}
 .contact-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%
 }
-#contact-form img{
+#contact-form img {
   border: 0.05555555556em solid black;
   border-radius: 0.1666666667em;
 }
@@ -284,6 +281,12 @@ input[type=submit]:hover {
   .footer-nav-items >a {
     margin: 0 3em;
   }
+  .contact-image {
+    width: 70%
+  }
+  .form-container {
+    margin: 0.5em 5em;
+  }
 }
 /* 770px || 770 / 16 = 48.125em */
 @media screen and (min-width: 48.125em) {
@@ -299,6 +302,12 @@ input[type=submit]:hover {
   }
   .footer-nav-items >a {
     margin: 0 4em;
+  }
+  .contact-image {
+    width: 60%;
+  }
+  .form-container {
+    margin: 0.5em 8em;
   }
 }
 /* 1090px || 1090 / 16 = 68.125em */
@@ -328,11 +337,24 @@ input[type=submit]:hover {
   #resume-section {
     padding: 0 8em;
   }
-@media screen and (min-width: 1300px) {
+  .contact-image {
+    width: 50%;
+  }
+  .form-container {
+    margin: 0.5em 13em;
+  }
+}
+/* 1300px || 1300 / 16 = 81.25em  */
+@media screen and (min-width: 81.25em) {
   #resume-section {
     padding: 0 15em;
   }
-@media screen and (min-width: 1600px) {
+  .form-container {
+    margin: 0.5em 8em;
+  }
+}
+/* 1600px || 1600 / 16 = 100em  */
+@media screen and (min-width: 100em) {
   #resume-section {
     padding: 0 25em;
   }
