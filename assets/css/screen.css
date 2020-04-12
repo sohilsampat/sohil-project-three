@@ -188,8 +188,9 @@ article > a:hover {
   line-height: 1.5em;
   list-style-type: disc;
 }
-.sub-list{
+.sub-list > li{
   margin-left: 1.6666666667em;
+  list-style-type: disc;
 }
 .org {
   font-weight: bold;
