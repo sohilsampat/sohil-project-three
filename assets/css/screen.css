@@ -173,6 +173,7 @@ article > a:hover {
   /* padding-bottom: 0.6666666667em; */
 }
 .dates {
+  display: block;
   padding-bottom: 0.4em;
 }
 .details {
@@ -182,6 +183,7 @@ article > a:hover {
   color: black;
 }
 .responsibilities {
+  display: block;
   line-height: 1.5em;
   list-style-type: disc;
 }
