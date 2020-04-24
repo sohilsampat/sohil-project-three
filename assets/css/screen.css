@@ -268,17 +268,10 @@ input[type=submit]:hover {
     grid-template-rows: 1fr;
     justify-content: center;
   }
-<<<<<<< HEAD
   .parallax{
     height: 80%;
   }
-  figure{
-=======
-  .parallax {
-    height: 80%;
-  }
   figure {
->>>>>>> master
     display: flex;
     flex-direction: column;
     justify-content: space-between;
