@@ -54,14 +54,11 @@ a{
   color: white;
 }
 .topnav a.icon {
-  /* background: white; */
+  color: black;
   display: inline;
   position: absolute;
   left: 0;
   top: 1em;
-  border: 0.5em;
-  border-style: double;
-  border-color: black;
 }
 #navigation-panel a {
   background-color: #4b495f;
