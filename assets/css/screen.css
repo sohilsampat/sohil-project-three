@@ -41,7 +41,7 @@ body, html {
   box-sizing: border-box;
   display: block;
   width: 100%;
-  border-top: 1px solid #333;
+  /* border-top: 1px solid #333; */
   color: white;
   background-color: #4b495f;
   padding: 14px 16px;
@@ -119,7 +119,7 @@ article > a:hover {
 #about-section, #resume-section {
   padding: 0 2em;
 }
-#about-section h1, #resume-section h1, #contact-page h1 {
+#about-section h1, #resume-section h1, #contact-form h1 {
   font-style: normal;
   font-family: futura-pt;
   font-weight: bold;
